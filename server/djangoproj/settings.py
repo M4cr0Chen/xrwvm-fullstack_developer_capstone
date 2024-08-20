@@ -108,11 +108,11 @@ AUTH_PASSWORD_VALIDATORS = [
                  'ation.MinimumLengthValidator'),
     },
     {
-        "NAME": ('django.contrib.auth.password_valid'\
+        "NAME": ('django.contrib.auth.password_valid'
                  'ation.CommonPasswordValidator'),
     },
     {
-        "NAME": ('django.contrib.auth.password_valid'\
+        "NAME": ('django.contrib.auth.password_valid'
                  'ation.NumericPasswordValidator'),
     },
 ]
