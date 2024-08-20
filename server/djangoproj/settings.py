@@ -31,11 +31,11 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     ('https://macrochen05-8000.theiadockernext-0-labs-'
-    'prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'),
+     'prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'),
 ]
 CSRF_TRUSTED_ORIGINS = [
     ('https://macrochen05-8000.theiadockernext-0-labs-'
-    'prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'),
+     'prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'),
 ]
 
 REST_FRAMEWORK = {
@@ -101,19 +101,19 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": ('django.contrib.auth.password_valid'
-    'ation.UserAttributeSimilarityValidator'),
+                 'ation.UserAttributeSimilarityValidator'),
     },
     {
         "NAME": ('django.contrib.auth.password_valid'
-    'ation.MinimumLengthValidator'),
+                 'ation.MinimumLengthValidator'),
     },
     {
         "NAME": ('django.contrib.auth.password_valid'\
-    'ation.CommonPasswordValidator'),
+                 'ation.CommonPasswordValidator'),
     },
     {
         "NAME": ('django.contrib.auth.password_valid'\
-    'ation.NumericPasswordValidator'),
+                 'ation.NumericPasswordValidator'),
     },
 ]
 
