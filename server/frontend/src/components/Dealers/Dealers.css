@@ -53,6 +53,7 @@ table{
     overflow-wrap: normal;
     margin-top: 1cm;
     align-items: flex-start;
+    border: solid purple;
   }
 
   .reviewer {
@@ -84,5 +85,5 @@ table{
 
 .review_icon:hover {
   transform: scale(1.1);
-  border: solid lightgray;
+  border: 2px solid #080808;
 }
