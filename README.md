@@ -27,8 +27,41 @@ To install Project Title, follow these steps:
 1. Clone the repository: **`https://github.com/M4cr0Chen/xrwvm-fullstack_developer_capstone.git`**
 2. Navigate to the project directory: **`cd xrwvm-fullstack_developer_capstone`**
 3. Install dependencies: **`npm install`**
-4. Build the project: **`npm run build`**
-5. Start the project: **`npm start`**
+6. Build the project: **`npm run build`**
+7. Start the project: **`npm start`**
+4. Set up the Django environment:
+   ```
+   pip install virtualenv
+   virtualenv djangoenv
+   source djangoenv/bin/activate
+   ```
+   Install the required packages by running the following command:
+   ```
+   python3 -m pip install -U -r requirements.txt
+   ```
+   Run the following command to perform model migration:
+   ```
+   python3 manage.py makemigrations
+   python3 manage.py migrate
+   python3 manage.py runserver
+   ```
+   Perform a docker build with the Dockerfile in the current directory.
+   ```
+   MY_NAMESPACE=$(ibmcloud cr namespaces | grep sn-labs-)
+   docker build -t us.icr.io/$MY_NAMESPACE/dealership .
+   ```
+   Push the image to the container registry:
+   ```
+   docker push us.icr.io/$MY_NAMESPACE/dealership
+   ```
+   Deploy:
+   ```
+   kubectl apply -f deployment.yaml
+   ```
+   Port-forward the running application:
+   ```
+   kubectl port-forward deployment.apps/dealership 8000:8000
+   ```
 
 ## **Usage**
 
@@ -55,11 +88,11 @@ If you'd like to contribute to Project Title, here are some guidelines:
 
 ## **License**
 
-Project Title is released under the MIT License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
+Project Title is released under the Apache License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
 
 ## **Authors and Acknowledgment**
 
-Project Title was created by **[Your Name](https://github.com/username)**.
+Car Dealership was created by **[Zhenghong Chen & IBM](https://github.com/M4cr0Chen)**.
 
 Additional contributors include:
 
@@ -94,17 +127,10 @@ Please note that this project is released with a Contributor Code of Conduct. By
 
 **A:** Project Title is released under the MIT License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
 
-## **Changelog**
-
-- **0.1.0:** Initial release
-- **0.1.1:** Fixed a bug in the build process
-- **0.2.0:** Added a new feature
-- **0.2.1:** Fixed a bug in the new feature
-
 ## **Contact**
 
-If you have any questions or comments about Project Title, please contact **[Your Name](you@example.com)**.
+If you have any questions or comments about the project, please contact **[Zhenghong Chen](z253chen@uwaterloo.ca)**.
 
 ## **Conclusion**
 
-That's it! This is a basic template for a proper README file for a general project. You can customize it to fit your needs, but make sure to include all the necessary information. A good README file can help users understand and use your project, and it can also help attract contributors.
+Have a nice day! :-)
