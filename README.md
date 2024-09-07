@@ -88,22 +88,13 @@ If you'd like to contribute to Project Title, here are some guidelines:
 
 ## **License**
 
-Project Title is released under the Apache License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
+Project Title is released under the Apache License.
 
 ## **Authors and Acknowledgment**
 
 Car Dealership was created by **[Zhenghong Chen & IBM](https://github.com/M4cr0Chen)**.
 
-Additional contributors include:
 
-- **[Contributor Name](https://github.com/contributor-name)**
-- **[Another Contributor](https://github.com/another-contributor)**
-
-Thank you to all the contributors for their hard work and dedication to the project.
-
-## **Code of Conduct**
-
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms. See the **[CODE_OF_CONDUCT.md](https://www.blackbox.ai/share/CODE_OF_CONDUCT.md)** file for more information.
 
 ## **FAQ**
 
@@ -125,7 +116,7 @@ Please note that this project is released with a Contributor Code of Conduct. By
 
 **Q:** What license is Project Title released under?
 
-**A:** Project Title is released under the MIT License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
+**A:** Project Title is released under the Apache License.
 
 ## **Contact**
 
