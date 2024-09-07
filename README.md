@@ -96,31 +96,9 @@ Car Dealership was created by **[Zhenghong Chen & IBM](https://github.com/M4cr0C
 
 
 
-## **FAQ**
-
-**Q:** What is Project Title?
-
-**A:** Project Title is a project that does something useful.
-
-**Q:** How do I install Project Title?
-
-**A:** Follow the installation steps in the README file.
-
-**Q:** How do I use Project Title?
-
-**A:** Follow the usage steps in the README file.
-
-**Q:** How do I contribute to Project Title?
-
-**A:** Follow the contributing guidelines in the README file.
-
-**Q:** What license is Project Title released under?
-
-**A:** Project Title is released under the Apache License.
-
 ## **Contact**
 
-If you have any questions or comments about the project, please contact **[Zhenghong Chen](z253chen@uwaterloo.ca)**.
+If you have any questions or comments about the project, please contact (z253chen@uwaterloo.ca).
 
 ## **Conclusion**
 
