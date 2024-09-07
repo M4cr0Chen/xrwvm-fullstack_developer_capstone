@@ -16,7 +16,7 @@
 - Flask
 enabling users to view, search and review information about car dealerships in the country.
 
-## **Introduction
+## **Introduction**
 
 Car Dealership is a capstone project that allow users to view dealerships across the country. Users can register account, login to their account, view the specific information about any car dealership recorded, post reviews to the dealership with the Car Type and Year. The dealerships' review component is AI powered with IBM's Artificial-Intelligence emotion sensor to recognize the review's attitude, providing enriched information to the user.
 
