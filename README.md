@@ -1,8 +1,8 @@
 # **README File**
 
-## **Auto Finder Full Stack Web Application**
+## **Auto Trader Full Stack Web Application**
 
-"Auto Finder" is a full stack web application that utilize
+"Auto Trader" is a full stack web application that utilize
 - React.js
 - Node.js
 - Django
@@ -18,7 +18,7 @@ enabling users to view, search and review information about car dealerships in t
 
 ## **Introduction**
 
-Auto Finder is a capstone project that allow users to view dealerships across the country. Users can register account, login to their account, view the specific information about any car dealership recorded, post reviews to the dealership with the Car Type and Year. The dealerships' review component is AI powered with IBM's Artificial-Intelligence emotion sensor to recognize the review's attitude, providing enriched information to the user.
+Auto Trader is a capstone project that allow users to view dealerships across the country. Users can register account, login to their account, view the specific information about any car dealership recorded, post reviews to the dealership with the Car Type and Year. The dealerships' review component is AI powered with IBM's Artificial-Intelligence emotion sensor to recognize the review's attitude, providing enriched information to the user.
 
 ## **Installation**
 
@@ -65,7 +65,7 @@ To install Project Title, follow these steps:
 
 ## **Usage**
 
-To use Auto Finder, follow these steps:
+To use Auto Trader, follow these steps:
 
 1. Open the project in your favorite code editor.
 2. Modify the source code to fit your needs.
@@ -88,11 +88,11 @@ If you'd like to contribute to Auto Finder, here are some guidelines:
 
 ## **License**
 
-Auto Finder is released under the Apache License.
+Auto Trader is released under the Apache License.
 
 ## **Authors and Acknowledgment**
 
-Auto Finder was created by **[Zhenghong Chen & IBM](https://github.com/M4cr0Chen)**.
+Auto Trader was created by **[Zhenghong Chen & IBM](https://github.com/M4cr0Chen)**.
 
 
 
